@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    color: rgb(28, 43, 58);
+    background-color: lightblue;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 20px auto 20px auto;
+    border: 2px solid lightcyan;
+    background-color: #ffffff;
+}
+
+header {
+    height: 200px;
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 7px 0;
+    display: flex
+
+}
+
+header nav ul li {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    display: inline;
+  }
+
+
+
+nav, footer {
+    clear: both;
+    color: black;
+    height: 40px;
+    display: flex;
+}
+
+nav ul {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+nav li a:hover, nav li a.current {
+    color:pink;
+}
+
+section.work {
+    
+    width: 88%;
+    display: inline-block;
+    text-align: left;
+    height: 100%;
+
+}
+
+article {
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 80px;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float:right;
+    width: 290px;
+    height: 220;
+    padding: 290px;
+    margin: 20px;
+}
+
+figure img {
+    width: 500px;
+    height:400px;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+
+footer {
+    background: white;
+    width: 100%;
+    padding: 1px;
+    
+  }
+
+
+  hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
+    min-width: 30%;
+  }
+
+
+
+
+ 
+
+  footer h3 {
+      color: black;
+      text-align: center;
+  }
