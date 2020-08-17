@@ -1,90 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css"></style>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Alexis's Portfolio!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexis Manduke</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-<!-- Using a layout as an example from Jon Dockett HTML & CSS-->
-<div class="wrapper">
-    <header>
-        <h1>Hey, <br><br>I'm Alexis</h1>
-        <nav>
-            <ul> 
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#aboutme">About Me</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-             </ul>   
-        </nav>
-    </header>
-    <!-- Work Section -->
-    <section class="work">
-        <article>
-                <img src="assets/images/runbuddy.jpg"  alt="" />
-                <figcaption>Fitness Website</figcaption>
-                <h2>Runbuddy</h2>
-                <h3>Responsive & Mobile Friendly website.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </article>
-        <br>
-        <hr>
-        <br>
-        <article>
-                <a href="https://alexisteachesyoga.com/">
-                <img src="assets/images/alexisteachesyoga.jpg" alt="" />
-                </a>
-                <figcaption>Wordpress Website</figcaption>
-                <a href="https://alexisteachesyoga.com/"><h2>Alexis Teaches Yoga</h2></a>
-                <h3>Yoga website using Wordpress.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </article>
-        <br>
-        <hr class="hr">
-        <br>
-        <article>
-                <a href="https://amanduke.github.io/coderefactor.io/">
-                <img src="assets/images/horiseon.jpg"  alt="" />
-                </a>
-                <figcaption>SEO Website</figcaption>
-                <a href="https://amanduke.github.io/coderefactor.io/"><h2>Code Refractor</h2></a>
-                <h3>A website that using sematic code and heirachy.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </article>
-    </section>
-    <!-- end of work section -->
-    <!-- sidebar -->
-   
-    <!--end of sidebar-->
+  <!-- navigation -->
+  <header>
+    <h1>
+      <a href="/">
+        ALEXIS MANDUKE
+      </a>
+    </h1>
+    <nav>
+      <!-- Unordered list element -->
+      <ul>
+        <!-- List item element-->
+        <li>
+          <!-- Anchor element -->
+          <button class="button"><a href="#about">About</a></button>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#connect">Let's Connect</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- footer -->
-    <footer>
-         <h3>&copy;Alexis Manduke</h3>
-         <h3>717.979.8790</h3>
-         <h3>GitHub</h3>
-         <h3>LinkedIn</h3>
-    </footer>
-    <!-- end of footer-->
-</div><!--wrapper-->
+  <!-- hero/jumbotron -->
+  <section class="hero">
+    <div class="hero-cta">
+      <h2>Graphic Artist & Web Developer</h2>
+    </div>
+   
+   <!-- hero-form -->
+    <div class="hero-form">
+      
+    </div>
+  </section>
+
+  <!-- "what we do" section -->
+  <section id="about" class="intro">
+    <div class="flex-row">
+      <h2 class="section-title primary-border">
+        A lil about me</h2>
+    </div>
+    <div class="flex-row">
+      <p>
+        I graduated with a Bachelors of Fine Arts degree from Kutztown University of Pennsylvania. I have experience in Graphic Design, Illustration, and Painting. My most recent 
+        professional experience has been in promotional products and academic publishing. On the side, I teach yoga 🧘. 
+    </p>
+    </div>
+  </section>
+
+  <!-- "what you do" section -->
+  <section id="skills" class="steps">
+    <div class="flex-row">
+      <h2 class="section-title secondary-border">
+        Skills</h2>
+      </div>
+
+      <div class="step">
+        <h3>Illustrator</h3>
+      </div>
+
+      <div class="step">
+        <h3>HTML5</h3>
+      </div>
+
+      <div class="step">
+        <h3>CSS</h3>
+      </div>
+
+      <div class="step">
+        <h3>JavaScript</h3>
+      </div>
+
+
+  <!-- "work section -->
+
+  <div class="work">
+    <div class="flex-row">
+      <h2 class="section-title primary-border">Work</h2>
+    </div>
     
+    <article class="work">
+      <img src="./assets/images/horiseon.png" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+      <div class="work">
+        <h3 class="work-name">Arron Stephens</h3>
+        <h4 class="work-role">Speed / Strength</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+        </p>
+      </div>
+    </article>
+    
+    <!-- second website -->
+
+    <article class="work">
+      <img src="./assets/images/runbuddy.png" alt="Joanna Gill cooling off after a workout" />
+      <div class="work-bio">
+        <h3 class="work-name">Arron Stephens</h3>
+        <h4 class="work-role">Speed / Strength</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+        </p>
+      </div>
+    </article>
+
+    <!-- third website -->
+   
+    <article class="work">
+      <img src="./assets/images/alexisteachesyoga.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+      <div class="work-bio">
+        <h3 class="work-name">Harry "the Headband" Smith</h3>
+        <h4 class="work-role">Strength</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+        </p>
+      </div>
+    </article>
+  </div>
+
+  <!-- "reach out" section -->
+  <section id="connect" class="contact">
+    <h2 class="section-title secondary-border">Let's Talk</h2>
+    
+    <div class="contact-info">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
+        frameborder="0" style="border:0" allowfullscreen>
+      </iframe>
+
+      <div class="contact-form">
+        <h3>Get in Touch</h3>
+        <form>
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Your Name" />
+      
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+      <div class="contact-info">
+          <div>
+            <h3>Send me <br>an email!</h3>
+            <p>
+              Any questions or concerns before signing up?
+              <br />
+              Let us know and we'll be happy to talk to you!
+            </p>
+            <address>
+              55 Main Street <br />
+              Some Town, Ca <br />
+              12345<br />
+              P: 555.RUN.BUDZ (555.786.2839)<br />
+              E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+            </address>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <h2>Let's work together!</h2>
+    <div>
+      <a href="https://www.linkedin.com/in/alexismanduke/">LinkedIn</a><br />
+    </div>
+  </footer>
 </body>
 
 </html>
