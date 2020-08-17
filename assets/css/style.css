@@ -101,6 +101,13 @@ header nav ul {
   
   footer a {
     color: whitesmoke;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: yellow;
+    text-decoration: none;
+    font-size: 30px;
   }
   
   section {
@@ -172,7 +179,7 @@ header nav ul {
  /* default state */
   .step h3 {
     color: yellow;
-    font-size: 46px;
+    font-size: 35px;
     flex: 1 30%;
     text-align: center;
   }
@@ -180,9 +187,9 @@ header nav ul {
 
 .step h3:hover {
     color: purple;
-    font-size: 46px;
     flex: 1 30%;
     text-align: center;
+    font-size: 70px;
   }
 
   .step-text {
@@ -230,6 +237,14 @@ header nav ul {
     text-shadow: 5px 10px 15px black;
     box-shadow: 5px 10px 15px black;
   }
+
+
+  .work img:hover {
+    width: 100%;
+    text-shadow: 5px 10px 15px black;
+    box-shadow: 20px 10px 15px yellow;
+  }
+  
   
   .work-bio {
     padding: 25px;
@@ -250,6 +265,18 @@ header nav ul {
     font-size: 17px;
   }
   
+
+ .work a {
+     text-decoration: none;
+     color: whitesmoke;
+ }
+
+
+ .work a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
   .text-left {
     text-align: left;
   }
