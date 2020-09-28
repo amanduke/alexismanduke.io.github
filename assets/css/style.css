@@ -238,7 +238,7 @@ header nav ul {
     box-shadow: 5px 10px 15px black;
   }
 
-
+/* lights up with hover */
   .work img:hover {
     width: 100%;
     text-shadow: 5px 10px 15px black;
