@@ -49,6 +49,7 @@ header nav ul {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 5px 10px 15px black;
+
   }
   
 
@@ -133,7 +134,7 @@ header nav ul {
     text-align: left;
     margin: 15%;
     color: #fff;
-    font-size: 18px;
+    font-size: px;
     line-height: 1.5;
     
   }
