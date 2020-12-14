@@ -7,7 +7,7 @@
   body {
     /* more on this crazy alphanumerical value in a minute! */
     color: black;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   /* apply styles to <header> */
@@ -49,9 +49,32 @@ header nav ul {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 5px 10px 15px black;
-
   }
-  
+   article {
+     display: block;
+   }
+
+
+  content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .about-me, .contact-me {
+    margin: 10px 60px 150px 0;
+    padding: 50px;
+    height: 300px;
+    color: black;
+  }
+
+  .about-me h2 {
+    margin-bottom: 5;
+    font-size: 44px;
+    border-bottom: 3px solid;
+    color: black;
+    text-align: left;
+   }
 
   button {
     background-color: black;
